@@ -20,7 +20,7 @@ highScoreEl.textContent = highScore;
 // 🎈 Balloons float + catch game
 function createBalloon() {
   const balloon = document.createElement("img");
-  balloon.src = "images/balloon.png";
+  balloon.src = "images/ballooon.png";
   balloon.style.width = "60px";
   balloon.style.position = "absolute";
   balloon.style.left = Math.random() * window.innerWidth + "px";
