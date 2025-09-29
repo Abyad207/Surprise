@@ -107,6 +107,15 @@ giftBox.addEventListener("click", () => {
   }, 1000);
 });
 
+// 🎁 Surprise Gift Box Link
+const giftBox2 = document.getElementById("giftBox2");
+const giftLink = document.getElementById("giftLink");
+
+giftBox2.addEventListener("click", () => {
+  giftLink.style.display = "block";
+  giftBox2.style.display = "none"; // hide box after clicking
+});
+
 // 🧁 Hidden cupcake Easter egg
 const cupcake = document.getElementById("cupcake");
 setTimeout(() => cupcake.classList.remove("hidden"), 5000);
