@@ -64,13 +64,13 @@ for (let i = 0; i < 15; i++) {
 }
 
 // ⚽ Soccer goal
-const soccerBall = document.getElementById("soccerBall");
-const cheer = document.getElementById("cheer");
-soccerBall.addEventListener("mouseenter", () => {
-  soccerBall.classList.add("scored");
-  cheer.currentTime = 0;
-  cheer.play();
-  setTimeout(() => soccerBall.classList.remove("scored"), 1500);
+//const soccerBall = document.getElementById("soccerBall");
+//const cheer = document.getElementById("cheer");
+//soccerBall.addEventListener("mouseenter", () => {
+ // soccerBall.classList.add("scored");
+  //cheer.currentTime = 0;
+  //cheer.play();
+  //setTimeout(() => soccerBall.classList.remove("scored"), 1500);
 });
 
 // 🎮 Pokémon cries
